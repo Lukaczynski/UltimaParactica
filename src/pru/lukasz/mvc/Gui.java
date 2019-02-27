@@ -23,14 +23,12 @@ public class Gui {
     JTextField carreraPremio;
     JTextField carreraVueltas;
     DatePicker carreraFecha;
-    JComboBox carreraCircuito;
     JButton carreraShowDetail;
     JButton carreraClear;
     JButton carreraEdit;
     JButton carreraDelete;
     JButton carreraAdd;
     JList listPiloto;
-    JComboBox pilotoCoche;
     DatePicker pilotoFecha;
     JTextField pilotoSalario;
     JTextField pilotoNombre;
@@ -41,7 +39,6 @@ public class Gui {
     JTextField cocheId;
     JTextField cocheNumero;
     JTextField cocheColor;
-    JComboBox cocheEscuderia;
     JButton pilotoClear;
     JButton pilotoEdit;
     JButton pilotoDelete;
@@ -69,7 +66,6 @@ public class Gui {
     JTextField patrocinadorNombre;
     JTextField patrocinadorPresupuesto;
     DatePicker patrocinadorFecha;
-    JComboBox patrocinadorCoche;
     JButton patrocinadorShowDetail;
     JLabel log;
     JList listCarreraPiloto;

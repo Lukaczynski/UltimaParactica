@@ -34,7 +34,7 @@ public class AutoUpdate extends Thread {
             controler.gui.log.setText("Actualizacion en curso...");
             try {
                 controler.updateLists();
-                controler.updateComboBox();
+
             }catch (Exception e){
                 controler.gui.log.setForeground(Color.RED);
                 controler.gui.log.setText("Error al actualizar. Comprueba la conexion a la base de datos");
